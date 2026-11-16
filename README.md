@@ -2,7 +2,6 @@
 
 A lightweight, local-first flashcard study app inspired by the core flashcard workflow in Quizlet. StudyDeck runs as a standalone HTML page without an account, server, build tools, or an API key. It organizes cards into class folders and decks, remembers which cards you know, and can make editable flashcard drafts from lecture notes, screenshots, and textbook pages.
 
-![StudyDeck Generate Cards screen](assets/studydeck-generate-preview.png)
 
 ## Features
 
@@ -82,7 +81,6 @@ index.html                          GitHub Pages entry point
 studydeck_auto_generate.html       Original standalone app file
 docs/USER_GUIDE.md                 End-user instructions
 docs/TECHNICAL_NOTES.md            Implementation and limitations
-assets/studydeck-generate-preview.png  Screenshot
 ```
 
 ---
