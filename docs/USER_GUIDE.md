@@ -2,19 +2,19 @@
 
 ## 1. Start a class and deck
 
-Open \`index.html\` or the published GitHub Pages site. Use **New class folder** in the left sidebar for a subject such as Biology, then **New deck name** beneath that class for a topic such as Cell Biology. Select the deck to study or modify it.
+Open `index.html` or the published GitHub Pages site. Use **New class folder** in the left sidebar for a subject such as Biology, then **New deck name** beneath that class for a topic such as Cell Biology. Select the deck to study or modify it.
 
 ## 2. Add cards manually
 
 Select **Add cards** and enter a front (prompt) and back (answer). You can attach an image or enter multiple structured pairs. The text importer recognizes formats such as:
 
-\`\`\`text
+```text
 Mitosis: Division of a cell into two daughter cells.
 What does ATP stand for? | Adenosine triphosphate
 Photosynthesis :: The process of converting light energy into chemical energy.
-\`\`\`
+```
 
-The manual file importer accepts \`.txt\`, \`.md\`, and \`.csv\` for card pairs. Uploading an image in **Add cards** creates an image prompt to edit manually; to **read text from a picture**, use **Generate cards** instead.
+The manual file importer accepts `.txt`, `.md`, and `.csv` for card pairs. Uploading an image in **Add cards** creates an image prompt to edit manually; to **read text from a picture**, use **Generate cards** instead.
 
 ## 3. Generate cards automatically
 
@@ -25,7 +25,7 @@ The manual file importer accepts \`.txt\`, \`.md\`, and \`.csv\` for card pairs.
 5. Inspect the proposed front and back of each draft. Edit inaccurate wording and deselect unwanted drafts.
 6. Click **Save selected cards to deck** (the button displays the selected count).
 
-The card generator is rule-based and may produce few or imperfect cards from disconnected notes, complex formulas, charts, and drawings. For best results, provide complete factual sentences or clear \`term: definition\` pairs. OCR requires legible images; scanned PDF pages may be slower.
+The card generator is rule-based and may produce few or imperfect cards from disconnected notes, complex formulas, charts, and drawings. For best results, provide complete factual sentences or clear `term: definition` pairs. OCR requires legible images; scanned PDF pages may be slower.
 
 Limits: up to 12 uploaded files per batch, 18 MB per file, and the first 16 pages of each PDF. Only English OCR is configured. Internet access is needed to load document/OCR readers when they are not already available.
 
@@ -56,4 +56,4 @@ A downloaded HTML file, a GitHub Pages deployment, and different browsers genera
 - **PDF or DOCX import fails:** confirm internet access for on-demand libraries; try a TXT version of the notes.
 - **OCR takes a while:** scanned pages must be rendered and read as images; use fewer or smaller pages.
 - **Generated card is incorrect:** edit the draft or remove it before saving. This app does not check factual correctness.
-- **No drafts appear:** try clear definitions, complete factual sentences, or \`question | answer\` pairs.
+- **No drafts appear:** try clear definitions, complete factual sentences, or `question | answer` pairs.
